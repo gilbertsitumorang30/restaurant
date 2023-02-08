@@ -58,6 +58,9 @@ body {
       font-size: bold;
       color: #fff;
       text-decoration: none;
+      min-width: 44px;
+      min-height: 44px;
+      text-align: center;
     }
 
     .nav {
@@ -82,12 +85,19 @@ body {
 
         .nav-item {
           list-style: none;
+          min-height: 44px;
+          display: flex;
+          min-width: 44px;
+          align-items: center;
 
           a {
             color: #fff;
             text-decoration: none;
             cursor: pointer;
             font-weight: 600;
+            min-height: 44px;
+            min-width: 44px;
+            line-height: 44px;
           }
         }
       }
